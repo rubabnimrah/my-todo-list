@@ -1,1 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #e8eaf6;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
 
+.container {
+    background: white;
+    padding: 30px;
+    width: 350px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    width: 65%;
+}
+
+button {
+    padding: 10px;
+    background: #5c6bc0;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+li {
+    padding: 10px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.done {
+    text-decoration: line-through;
+    color: gray;
+}
